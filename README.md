@@ -24,3 +24,23 @@ In this project will find the pizza sales trend over time, monthly. Daily and ho
   - Daily Trends for Total Order in Bar Chart
   - Montly trend by order in line chart
   - Percentage of sales by pizza by category in Pie chart
+
+### Microsoft SQL Data Analysis
+- Total Revenue
+
+```sql
+SELECT SUM(total_price) AS Total_Revenue FROM pizza_sales
+```
+- Average Order by Value
+
+```sql
+  SELECT (SUM(total_price) / COUNT(DISTINCT order_id)) AS Avg_order_Value FROM pizza_sales
+  ```
+- Total Pizza Sold
+```sql
+  SELECT (SUM(total_price) / COUNT(DISTINCT order_id)) AS Avg_order_Value FROM pizza_sales
+  ```
+- Total Orders
+```sql
+SELECT COUNT(DISTINCT order_id) AS Total_Orders FROM pizza_sales
+```
