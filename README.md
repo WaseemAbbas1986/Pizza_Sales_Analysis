@@ -8,6 +8,11 @@ In this project will find the pizza sales trend over time, monthly. Daily and ho
 - Microsoft SQL Server - Data Analyse
 - Microsoft Power BI Desktop - Data vasualization Report (Dashboard)
 ---
+
+### Data Sources
+- in this project we use csv file which have all pizza sales information
+![CSV Data](https://github.com/WaseemAbbas1986/Pizza_Sales_Analysis/assets/168902203/29737af0-a3e7-4f5e-b032-32d3c57e318a)
+
 ### Data Preperation
 - Import csv file to SQL
 - Done Data Analysis in SQL
@@ -152,4 +157,15 @@ FROM pizza_sales
 GROUP BY pizza_name
 ORDER BY Total_Orders ASC
 ```
+---
+### Data Vaisualization in Power BI Desktop
+
+- Overall sales Trend Report
+
+![Pizza sales 1](https://github.com/WaseemAbbas1986/Pizza_Sales_Analysis/assets/168902203/564b0e5e-5250-4158-9b7b-4c1359dd0f84)
+
+- Best and worst selling product Report
+
+![Pizza sales 2](https://github.com/WaseemAbbas1986/Pizza_Sales_Analysis/assets/168902203/17951d63-b3f5-458a-b6b2-8a308dc91799)
+
 ---
