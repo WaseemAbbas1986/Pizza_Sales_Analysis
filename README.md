@@ -28,7 +28,7 @@ In this project will find the pizza sales trend over time, monthly. Daily and ho
   - Total Pizza quantity Sold
   - Total Numbers of orders
   - Average Pizza per Order
----
+
 2- Charts Requirement
   - create Percentage of sales by pizza size in Pie chart
   - Create a funnel chart which shows the Total Pizza sold by pizza category
